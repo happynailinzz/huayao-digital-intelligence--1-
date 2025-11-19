@@ -1,0 +1,10 @@
+version: 1
+build:
+  command: npm run build
+  output_directory: dist
+environment_variables:
+  NPM_CONFIG_LEGACY_PEER_DEPS: "true"
+deployment_triggers:
+  - push
+  - manual
+
