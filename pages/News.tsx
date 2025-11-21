@@ -2,9 +2,16 @@
 import React from 'react';
 import { PageHeader } from '../components/PageHeader';
 import { NEWS } from '../data/mock';
-import { Calendar, ArrowRight, Tag } from 'lucide-react';
+import { Calendar, ArrowRight, Tag, ExternalLink } from 'lucide-react';
 
 export const News: React.FC = () => {
+    const handleNewsClick = (originalUrl: string | undefined) => {
+        if (originalUrl) {
+            // 在新窗口/标签页中打开原文链接
+            window.open(originalUrl, '_blank', 'noopener,noreferrer');
+        }
+    };
+
     return (
         <div className="min-h-screen bg-white">
             <PageHeader 
@@ -20,6 +27,7 @@ export const News: React.FC = () => {
                                 key={item.id} 
                                 className="group flex flex-col md:flex-row bg-white rounded-xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 animate-fade-in-up cursor-pointer"
                                 style={{ animationDelay: `${index * 100}ms` }}
+                                onClick={() => handleNewsClick(item.originalUrl)}
                             >
                                 {/* Image Section */}
                                 <div className="md:w-80 h-56 md:h-auto flex-shrink-0 relative overflow-hidden bg-slate-200">
@@ -67,8 +75,8 @@ export const News: React.FC = () => {
                                     </p>
                                     
                                     <div className="flex items-center text-brand-red font-bold text-sm group/btn w-fit mt-auto">
-                                        阅读全文 
-                                        <ArrowRight className="w-4 h-4 ml-1 transition-transform group-hover/btn:translate-x-1" />
+                                        查看原文 
+                                        <ExternalLink className="w-4 h-4 ml-1 transition-transform group-hover/btn:translate-x-1" />
                                     </div>
                                 </div>
                             </article>

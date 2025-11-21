@@ -3,16 +3,16 @@ import { Landmark, Users, MapPin, Award, ArrowRight } from 'lucide-react';
 
 export const About: React.FC = () => {
     return (
-        <section id="about" className="py-16 sm:py-20 bg-slate-50">
+        <section id="about" className="py-8 sm:py-12 lg:py-16 bg-slate-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="bg-white rounded-2xl p-6 sm:p-8 md:p-12 shadow-lg border border-slate-100">
-                    <div className="grid md:grid-cols-2 gap-8 md:gap-12">
+                <div className="bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 shadow-lg border border-slate-100">
+                    <div className="grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12">
                         <div>
                             <h2 className="text-2xl font-bold text-brand-dark mb-4">源自巨头，立足中原</h2>
-                            <p className="text-sm sm:text-base text-brand-base leading-relaxed mb-6">
+                            <p className="text-sm sm:text-base text-brand-base leading-relaxed mb-4 sm:mb-6">
                                 河南华曜数智科技有限公司骨干团队主要来自<span className="font-bold text-brand-dark">华为、海康威视、H3C</span>等头部科技企业，具备丰富的省市级重点项目操盘经验。
                             </p>
-                            <p className="text-sm sm:text-base text-brand-base leading-relaxed mb-6">
+                            <p className="text-sm sm:text-base text-brand-base leading-relaxed mb-4 sm:mb-6">
                                 作为国家数字战略的重要执行者，公司于 2025 年随华为中国区总部同步战略落户<span className="font-bold text-brand-dark">郑州</span>。我们致力于抢占中原地区数字经济产业升级的历史机遇，在山东、湖北、河南三省积累了丰富的政府、能源、制造等关键行业经验。
                             </p>
                             <a href="#contact" className="text-brand-red font-semibold hover:underline inline-flex items-center group">

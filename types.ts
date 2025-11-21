@@ -51,4 +51,5 @@ export interface NewsItem {
     summary: string;
     category: string;
     imageUrl?: string;
+    originalUrl?: string; // 原文链接
 }

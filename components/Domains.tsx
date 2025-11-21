@@ -56,21 +56,21 @@ const DOMAINS: DomainWithImage[] = [
 
 export const Domains: React.FC = () => {
     return (
-        <section id="domains" className="py-20 bg-white">
+        <section id="domains" className="py-8 sm:py-16 lg:py-20 bg-white">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="text-center mb-16">
+                <div className="text-center mb-8 sm:mb-12 lg:mb-16">
                     <h2 className="text-brand-red font-bold tracking-[0.4em] uppercase text-xs sm:text-sm mb-2 sm:mb-3">核心产业</h2>
-                    <h3 className="text-2xl sm:text-3xl font-bold text-brand-dark">六大产业领域深耕</h3>
-                    <p className="mt-3 text-sm sm:text-base text-brand-base max-w-2xl mx-auto">依托头部科技企业技术底座，提供全场景解决方案。</p>
+                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-brand-dark">六大产业领域深耕</h3>
+                    <p className="mt-2 sm:mt-3 text-xs sm:text-sm lg:text-base text-brand-base max-w-2xl mx-auto">依托头部科技企业技术底座，提供全场景解决方案。</p>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+                <div className="grid grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-6">
                     {DOMAINS.map((domain) => {
                         const Icon = domain.icon;
                         return (
                             <div 
                                 key={domain.id}
-                                className="group relative h-72 sm:h-80 rounded-2xl overflow-hidden cursor-pointer shadow-md hover:shadow-2xl transition-all duration-500"
+                                className="group relative h-48 sm:h-56 lg:h-80 rounded-xl lg:rounded-2xl overflow-hidden cursor-pointer shadow-md hover:shadow-2xl transition-all duration-500"
                             >
                                 {/* Background Image */}
                                 <div className="absolute inset-0">
@@ -84,24 +84,24 @@ export const Domains: React.FC = () => {
                                 </div>
 
                                 {/* Content */}
-                                <div className="absolute inset-0 p-6 sm:p-8 flex flex-col justify-end z-10">
+                                <div className="absolute inset-0 p-3 sm:p-6 lg:p-8 flex flex-col justify-end z-10">
                                     {/* Icon Badge */}
-                                    <div className="absolute top-8 right-8 w-14 h-14 bg-white/10 backdrop-blur-md border border-white/20 rounded-xl flex items-center justify-center group-hover:bg-brand-red group-hover:border-brand-red transition-colors duration-300">
-                                        <Icon className="w-7 h-7 text-white" />
+                                    <div className="absolute top-3 right-3 sm:top-8 sm:right-8 w-8 h-8 sm:w-14 sm:h-14 bg-white/10 backdrop-blur-md border border-white/20 rounded-lg sm:rounded-xl flex items-center justify-center group-hover:bg-brand-red group-hover:border-brand-red transition-colors duration-300">
+                                        <Icon className="w-4 h-4 sm:w-7 sm:h-7 text-white" />
                                     </div>
 
                                     {/* Text Info */}
                                     <div className="transform transition-transform duration-500 translate-y-2 group-hover:translate-y-0">
-                                        <h4 className="text-xl sm:text-2xl font-bold text-white mb-2 sm:mb-3 group-hover:text-white transition-colors">
+                                        <h4 className="text-xs sm:text-base lg:text-xl sm:text-2xl font-bold text-white mb-1 sm:mb-2 lg:mb-3 group-hover:text-white transition-colors leading-tight">
                                             {domain.title}
                                         </h4>
-                                        <p className="text-slate-200 text-[13px] sm:text-sm leading-relaxed opacity-90 line-clamp-3 group-hover:line-clamp-none group-hover:opacity-100 mb-3 sm:mb-4 transition-all">
+                                        <p className="text-slate-200 text-[10px] sm:text-xs lg:text-sm leading-relaxed opacity-90 line-clamp-2 lg:line-clamp-3 group-hover:line-clamp-none group-hover:opacity-100 mb-2 sm:mb-3 lg:mb-4 transition-all">
                                             {domain.description}
                                         </p>
                                         
                                         {/* Interactive Link */}
-                                        <div className="flex items-center text-brand-red font-bold text-sm opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-100">
-                                            了解更多 <ArrowRight className="w-4 h-4 ml-1" />
+                                        <div className="flex items-center text-brand-red font-bold text-[10px] sm:text-sm opacity-0 transform translate-y-4 group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-500 delay-100">
+                                            了解更多 <ArrowRight className="w-3 h-3 sm:w-4 sm:h-4 ml-1" />
                                         </div>
                                     </div>
                                 </div>
