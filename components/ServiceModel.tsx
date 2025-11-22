@@ -60,7 +60,7 @@ export const ServiceModel: React.FC = () => {
 
                                 {/* Content */}
                                 <div className="relative z-10">
-                                    <h4 className="text-xs sm:text-sm lg:text-lg xl:text-xl font-bold text-brand-dark mb-1 sm:mb-2 lg:mb-3 group-hover:text-brand-red transition-colors leading-tight">
+                                    <h4 className="text-sm sm:text-base lg:text-lg xl:text-xl font-bold text-brand-dark mb-1 sm:mb-2 lg:mb-3 group-hover:text-brand-red transition-colors leading-tight">
                                         {item.title}
                                     </h4>
                                     <p className="text-[10px] sm:text-xs lg:text-sm text-brand-base leading-relaxed line-clamp-3 sm:line-clamp-none">

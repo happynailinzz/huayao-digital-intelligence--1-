@@ -146,147 +146,147 @@ export const CASES: CaseStudy[] = [
 
 export const NEWS: NewsItem[] = [
     {
-        id: 'n13',
-        title: '河南公布省级数据标注基地建设先行先试城市名单（2024-12-20）',
-        date: '2024-12-20',
-        summary: '河南多地获批省级数据标注基地，加速数据要素产业发展。',
-        category: '数据要素',
-        imageUrl: '/images/news-data-annotation-policy.jpg',
-        originalUrl: 'http://www.caict.ac.cn/english/research/whitepapers/202509/P020250924573446494952.pdf'
-    },
-    {
-        id: 'n9',
-        title: '2024年河南省大数据产业发展工作方案发布（2024-09-25）',
-        date: '2024-09-25',
-        summary: '明确算力、大数据、人工智能等为河南新质生产力重点产业，加快数据中心建设。',
-        category: '宏观趋势',
-        imageUrl: '/images/news-data-marking.jpg',
-        originalUrl: 'https://m.c114.com.cn/w92-1272979.html'
-    },
-    {
-        id: 'n8',
-        title: '河南省人民政府办公厅关于印发人工智能赋能新型工业化行动方案（2025-09-16）',
-        date: '2025-09-16',
-        summary: '政策主推AI与制造业融合发展，助力郑州、洛阳等关键城市升级。',
-        category: '智能制造',
-        imageUrl: '/images/news-ai-industrialization.jpg',
-        originalUrl: 'https://www.shenqiu.gov.cn/p_detail_16484.html'
-    },
-    {
-        id: 'n5',
-        title: '河南出台方案加快人工智能赋能新型工业化（2025-09-15）',
-        date: '2025-09-15',
-        summary: '精招AI企业，培育省级专精特新企业，打造科技型初创企业群体。',
-        category: '智能制造',
-        imageUrl: '/images/news-ai-industrialization.jpg',
-        originalUrl: 'http://www.ha.chinanews.com.cn/news/hnxw/2025/0916/62956.shtml'
-    },
-    {
-        id: 'n6',
-        title: '河南省加快人工智能赋能新型工业化行动方案（2025—2027年）发布（2025-09-14）',
-        date: '2025-09-14',
-        summary: '到2027年，河南人工智能产业规模将破1600亿元，政策支持创新与应用场景打造。',
-        category: '智能制造',
-        imageUrl: '/images/news-ai-action-plan.jpg',
-        originalUrl: 'https://app.dahecube.com/nweb/pc/article.html?artid=247499%3Frecid%3D46'
-    },
-    {
-        id: 'n16',
-        title: '河南省2025年推进信创及数字基础设施国产化发展（2025-07-10）',
-        date: '2025-07-10',
-        summary: '信创产品在AI、元宇宙等新领域深化推进，政务云硬软件国产化进程提速。',
-        category: '信创前沿',
-        imageUrl: '/images/news-xinchuang-infrastructure.jpg',
-        originalUrl: 'https://www.hnhx.gov.cn/portal/ztzl/eynzt/yhys/hqzc/webinfo/2025/07/phone1751276503803471.htm'
-    },
-    {
-        id: 'n14',
-        title: '河南省推动数据标注产业高质量发展政策意见（2025-07-10）',
-        date: '2025-07-10',
-        summary: '数据企业加快信创国产化，深化数据标注与AI等新技术融合。',
-        category: '数据要素',
-        imageUrl: '/images/news-data-policy.jpg',
-        originalUrl: 'https://www.hnhx.gov.cn/portal/ztzl/eynzt/yhys/hqzc/webinfo/2025/07/phone1751276503803471.htm'
-    },
-    {
-        id: 'n12',
-        title: '河南发布第九批源网荷储一体化项目名单（2025-05-25）',
-        date: '2025-05-25',
-        summary: '河南第九批源网荷储项目共53个，突出企业储能配置与自发用电、调节优化。',
-        category: '智慧能源',
-        imageUrl: '/images/news-energy-storage.jpg',
-        originalUrl: 'http://cnnes.cc/hangye/20250526/10850.html'
-    },
-    {
         id: 'n1',
-        title: '河南省加快数字化转型推动制造业高质量发展工作推进会召开（2025-05-10）',
-        date: '2025-05-10',
-        summary: '河南实施数字化转型全覆盖行动，提升制造业智能化水平，推动高质量发展。',
-        category: '政策解读',
-        imageUrl: '/images/news-digital-transformation-1.jpg',
-        originalUrl: 'https://www.hnzwfw.gov.cn/2023/05-10/41000171.html'
-    },
-    {
-        id: 'n10',
-        title: 'AI时代算力发展趋势及河南概况（2025-03-30）',
-        date: '2025-03-30',
-        summary: '到2025年，河南数据中心机架数达15万，新建大型数据中心，支撑AI产业发展。',
-        category: '宏观趋势',
-        imageUrl: '/images/news-data-center.jpg',
-        originalUrl: 'https://pdf.dfcfw.com/pdf/H3_AP202504011649803989_1.pdf'
-    },
-    {
-        id: 'n7',
-        title: '河南省加快推进"人工智能+"行动工作要点公布（2025-03-27）',
-        date: '2025-03-27',
-        summary: '郑州数据交易中心争创国家级场所，省级数据标注基地加速布局。',
-        category: '智能制造',
-        imageUrl: '/images/news-ai-data-center.jpg',
-        originalUrl: 'https://kingduns.com/regulations-c-1689.html'
-    },
-    {
-        id: 'n4',
-        title: '数字经济产业链分析之河南概况（2024-05-28）',
-        date: '2024-05-28',
-        summary: '河南数字经济规模2022年突破1.9万亿元，占GDP31.5%。政策利好推动数字经济快速发展。',
-        category: '宏观趋势',
-        imageUrl: '/images/news-digital-economy-4.jpg',
-        originalUrl: 'https://pdf.dfcfw.com/pdf/H3_AP202405301634928732_1.pdf'
+        title: '河南举行高质量完成"十四五"规划系列主题新闻发布会（2025-10-09）',
+        date: '2025-10-09',
+        summary: '河南以数字化转型为引领，推动制造业高质量发展，多项数字经济指标领先全国。',
+        category: '智能化与数字化转型',
+        imageUrl: '/images/news-digital-transformation-henan.jpg',
+        originalUrl: 'http://www.scio.gov.cn/xwfb/dfxwfb/gssfbh/hn_13841/202510/t20251009_934036.html'
     },
     {
         id: 'n2',
-        title: '河南省加强数字政府建设实施方案（2023—2025年）印发（2023-05-09）',
-        date: '2023-05-09',
-        summary: '到2025年，河南将建成安全高效的数字基础设施，数据赋能政府治理。',
-        category: '政策解读',
-        imageUrl: '/images/news-digital-government.jpg',
-        originalUrl: 'https://www.hnzwfw.gov.cn/2023/05-10/41000171.html'
-    },
-    {
-        id: 'n15',
-        title: '《河南省加强数字政府建设实施方案》推信创国产化产品标准（2023-05-09）',
-        date: '2023-05-09',
-        summary: '文件强化政务云信创国产化要求，推动国产服务器和软件全面应用。',
-        category: '信创前沿',
-        imageUrl: '/images/news-digital-gov-xinchuang.jpg',
-        originalUrl: 'https://www.hnzwfw.gov.cn/2023/05-10/41000171.html'
-    },
-    {
-        id: 'n11',
-        title: '河南省推动配网改造升级 促进源网荷储一体化（2022-12-11）',
-        date: '2022-12-11',
-        summary: '河南公布源网荷储一体化实施方案，推动电网效率与智能化转型。',
-        category: '智慧能源',
-        imageUrl: '/images/news-smart-grid.jpg',
-        originalUrl: 'https://www.las.ac.cn/front/product/detail?id=a56e36e11e24a059c1e7d321660d7398'
+        title: '河南"十四五"数智强省建设成效显著（2025-09-28）',
+        date: '2025-09-28',
+        summary: '河南将坚持"数据要素×"与"人工智能+"，加快推进数字化智能化转型。',
+        category: '智能化与数字化转型',
+        imageUrl: '/images/news-digital-strong-province.jpg',
+        originalUrl: 'https://dzswgf.mofcom.gov.cn/news/29/2025/9/1759125389068.html'
     },
     {
         id: 'n3',
-        title: '2025年"数字河南"是啥样？这些变化和你有关（2021-12-23）',
-        date: '2021-12-23',
-        summary: '河南数字化转型战略加速推进，聚焦经济社会数字变革和创新发展。',
-        category: '区域动态',
-        imageUrl: '/images/news-digital-economy.jpg',
-        originalUrl: 'http://www.lankao.gov.cn/sitesources/lkxrmzf/page_pc/xwzx/rdgz/article70a312ac9d864bd99d6f9011d3e55c5b.html'
+        title: '河南省加快人工智能赋能新型工业化行动方案（2025—2027年）解读（2025-09-16）',
+        date: '2025-09-16',
+        summary: '政策强调智能制造与AI深度融合、数据标注基地标准化建设。',
+        category: '人工智能',
+        imageUrl: '/images/news-ai-industrialization-action.jpg',
+        originalUrl: 'http://www.shenqiu.gov.cn/p_detail_16483.html'
+    },
+    {
+        id: 'n4',
+        title: '中部第二！河南制造业数字化转型成效显著（2025-08-28）',
+        date: '2025-08-28',
+        summary: '河南多层次推进制造业数字化转型，企业智能化改造成效突出。',
+        category: '智能化与数字化转型',
+        imageUrl: '/images/news-manufacturing-digitalization.jpg',
+        originalUrl: 'https://app.dahecube.com/nweb/pc/article.html?artid=248720%3Frecid%3D167'
+    },
+    {
+        id: 'n5',
+        title: '河南省推动"人工智能+"行动计划（2024—2026年）政策解读（2025-08-23）',
+        date: '2025-08-23',
+        summary: '河南以人工智能引领数字化转型，召开专题推进会议部署产业发展。',
+        category: '人工智能',
+        imageUrl: '/images/news-ai-action-plan-policy.jpg',
+        originalUrl: 'https://dzswgf.mofcom.gov.cn/news/23/2025/8/1755242639923.html'
+    },
+    {
+        id: 'n6',
+        title: '河南省人民政府关于印发支持人工智能产业生态发展政策措施（2025-08-08）',
+        date: '2025-08-08',
+        summary: '河南促进AI模型研发应用和算力供给，打造AI产业生态新高地。',
+        category: '人工智能',
+        imageUrl: '/images/news-ai-industry-support.jpg',
+        originalUrl: 'https://www7.zzu.edu.cn/nsp/info/1035/2056.htm'
+    },
+    {
+        id: 'n7',
+        title: '河南省中西医结合医院医疗电子票据系统信创适配升级改造公告（2025-08-13）',
+        date: '2025-08-13',
+        summary: '医疗系统信创适配升级，推动国产化医疗信息化应用。',
+        category: '信创国产化',
+        imageUrl: '/images/news-medical-xinchuang.jpg',
+        originalUrl: 'http://www.hntcm.com/mobile/viewnews.aspx?id=14674'
+    },
+    {
+        id: 'n8',
+        title: '河南：2025年实施源网荷储一体化项目800个（2025-02-05）',
+        date: '2025-02-05',
+        summary: '2025年河南计划实施800个源网荷储项目，绿色基础设施建设成重点。',
+        category: '源网荷储（信息化）',
+        imageUrl: '/images/news-grid-storage-projects.jpg',
+        originalUrl: 'http://piinfo.com.cn/news/show-2448.html'
+    },
+    {
+        id: 'n9',
+        title: '2025年河南省政府工作报告全文（2025-02-04）',
+        date: '2025-02-04',
+        summary: '河南空港智算中心揭牌投运，国家数据要素综合试验区获批建设。',
+        category: '算力与数据中心',
+        imageUrl: '/images/news-henan-work-report.jpg',
+        originalUrl: 'https://www.hnswjrb.gov.cn/2025/02-05/3307583.html'
+    },
+    {
+        id: 'n10',
+        title: '河南省人民政府办公厅关于印发加快推进源网荷储一体化实施方案的通知（2025-01-20）',
+        date: '2025-01-20',
+        summary: '建成多标准统一的"河南链"服务体系，加快源网荷储一体化建设。',
+        category: '源网荷储（信息化）',
+        imageUrl: '/images/news-grid-storage-implementation.jpg',
+        originalUrl: 'https://www.hnsxny.cn/system/policy/openlist'
+    },
+    {
+        id: 'n11',
+        title: '河南省2025年数据资源发展工作要点（2025-04-08）',
+        date: '2025-04-08',
+        summary: '推进数据资源开发及算力平台建设，全省算力规模年底突破90E Flops。',
+        category: '算力与数据中心',
+        imageUrl: '/images/news-data-resources-development.jpg',
+        originalUrl: 'https://new.tzxm.gov.cn/zckd/gfxwj/202504/t20250409_1397143.shtml'
+    },
+    {
+        id: 'n12',
+        title: '河南数字经济核心产业企业总量达25.96万家（2025-01-02）',
+        date: '2025-01-02',
+        summary: '2024年底河南数字经济核心产业企业突破25万家，居全国第5、中部第1。',
+        category: '智能化与数字化转型',
+        imageUrl: '/images/news-digital-economy-enterprises.jpg',
+        originalUrl: 'https://www.cods.org.cn/c/2025-01-03/19631.html'
+    },
+    {
+        id: 'n13',
+        title: '关于征集数据标注优秀案例的通知（2025-01-14）',
+        date: '2025-01-14',
+        summary: '河南推进数据标注产业高质量发展，国家数据局征集优秀案例。',
+        category: '数据标注',
+        imageUrl: '/images/news-data-annotation-cases.jpg',
+        originalUrl: 'http://henan.kjzch.com/zhengzhou/2025-01-15/848558.html'
+    },
+    {
+        id: 'n14',
+        title: '河南省加快人工智能赋能新型工业化行动方案（2025—2027年）（2025-09-16）',
+        date: '2025-09-16',
+        summary: '政策支持郑州等地建设数据标注基地，打造标准化标注体系。',
+        category: '数据标注',
+        imageUrl: '/images/news-ai-industrialization-2027.jpg',
+        originalUrl: 'https://www.shenqiu.gov.cn/p_detail_16484.html'
+    },
+    {
+        id: 'n15',
+        title: '河南省推动"人工智能+"行动计划（2024—2026年）发布（2024-10-29）',
+        date: '2024-10-29',
+        summary: '河南持续推进"人工智能+"，数字技术与制造优势、应用场景深度融合。',
+        category: '人工智能',
+        imageUrl: '/images/news-ai-action-plan-2024.jpg',
+        originalUrl: 'https://new.tzxm.gov.cn/zckd/fzgh/202410/t20241031_1394152.shtml'
+    },
+    {
+        id: 'n16',
+        title: '《河南省加强数字政府建设实施方案（2023—2025年）》印发（2023-05-10）',
+        date: '2023-05-10',
+        summary: '政务云加强信创国产化，推动国产服务器和软件应用。',
+        category: '信创国产化',
+        imageUrl: '/images/news-digital-government-xinchuang.jpg',
+        originalUrl: 'https://www.hnzwfw.gov.cn/2023/05-10/41000171.html'
     }
 ];

@@ -92,7 +92,7 @@ export const Domains: React.FC = () => {
 
                                     {/* Text Info */}
                                     <div className="transform transition-transform duration-500 translate-y-2 group-hover:translate-y-0">
-                                        <h4 className="text-xs sm:text-base lg:text-xl sm:text-2xl font-bold text-white mb-1 sm:mb-2 lg:mb-3 group-hover:text-white transition-colors leading-tight">
+                                        <h4 className="text-sm sm:text-base lg:text-xl sm:text-2xl font-bold text-white mb-1 sm:mb-2 lg:mb-3 group-hover:text-white transition-colors leading-tight">
                                             {domain.title}
                                         </h4>
                                         <p className="text-slate-200 text-[10px] sm:text-xs lg:text-sm leading-relaxed opacity-90 line-clamp-2 lg:line-clamp-3 group-hover:line-clamp-none group-hover:opacity-100 mb-2 sm:mb-3 lg:mb-4 transition-all">
