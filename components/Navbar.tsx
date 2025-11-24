@@ -77,7 +77,7 @@ export const Navbar: React.FC = () => {
                         onClick={() => navigate('/')}
                     >
                         {/* Programmatic SVG Logo: 4 Squares */}
-                        <svg viewBox="0 0 100 100" className="h-9 w-9" xmlns="http://www.w3.org/2000/svg" aria-label="华曜数智 Logo">
+                        <svg viewBox="0 0 100 100" className="h-9 w-9" xmlns="http://www.w3.org/2000/svg" aria-label="寰曜数能 Logo">
                             {/* Top Left: Light Gray */}
                             <rect x="5" y="5" width="42" height="42" rx="6" fill={cTopLeft} />
                             {/* Top Right: Brand Red */}
@@ -88,7 +88,7 @@ export const Navbar: React.FC = () => {
                             <rect x="53" y="53" width="42" height="42" rx="6" fill={cBottomRight} />
                         </svg>
 
-                        <span className={`font-bold text-xl tracking-tight font-sans transition-colors ${logoTextClass}`}>华曜数智</span>
+                        <span className={`font-bold text-xl tracking-tight font-sans transition-colors ${logoTextClass}`}>寰曜数能</span>
                     </div>
 
                     {/* Desktop Menu */}

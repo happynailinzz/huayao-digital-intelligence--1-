@@ -10,7 +10,7 @@ export const Footer: React.FC = () => {
                     <div className="flex flex-col items-start gap-2">
                         <div className="flex items-center gap-3">
                             {/* Programmatic SVG Logo: 4 Squares (Standard Colors) */}
-                            <svg viewBox="0 0 100 100" className="h-8 w-8" xmlns="http://www.w3.org/2000/svg" aria-label="华曜数智 Logo">
+                            <svg viewBox="0 0 100 100" className="h-8 w-8" xmlns="http://www.w3.org/2000/svg" aria-label="寰曜数能 Logo">
                                 {/* Top Left: Light Gray */}
                                 <rect x="5" y="5" width="42" height="42" rx="6" fill="#94a3b8" />
                                 {/* Top Right: Brand Red */}
@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
                                 {/* Bottom Right: Dark Gray */}
                                 <rect x="53" y="53" width="42" height="42" rx="6" fill="#1e293b" />
                             </svg>
-                            <span className="font-bold text-lg text-brand-dark">华曜数智</span>
+                            <span className="font-bold text-lg text-brand-dark">寰曜数能</span>
                         </div>
                         <p className="text-xs text-brand-light mt-1">中原数字经济的关键赋能者</p>
                     </div>
@@ -28,7 +28,7 @@ export const Footer: React.FC = () => {
                         <Link to="/solutions" className="hover:text-brand-dark transition-colors">解决方案</Link>
                         <Link to="/cases" className="hover:text-brand-dark transition-colors">成功案例</Link>
                         <span className="text-slate-300">|</span>
-                        <span>© 2025 河南华曜数智科技有限公司. All rights reserved.</span>
+                        <span>© 2025 河南寰曜数能科技有限公司. All rights reserved.</span>
                     </div>
                 </div>
             </div>

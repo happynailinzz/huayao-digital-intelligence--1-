@@ -10,7 +10,7 @@ export const About: React.FC = () => {
                         <div>
                             <h2 className="text-2xl font-bold text-brand-dark mb-4">源自巨头，立足中原</h2>
                             <p className="text-sm sm:text-base text-brand-base leading-relaxed mb-4 sm:mb-6">
-                                河南华曜数智科技有限公司骨干团队主要来自<span className="font-bold text-brand-dark">华为、海康威视、H3C</span>等头部科技企业，具备丰富的省市级重点项目操盘经验。
+                                河南寰曜数能科技有限公司骨干团队主要来自<span className="font-bold text-brand-dark">华为、海康威视、H3C</span>等头部科技企业，具备丰富的省市级重点项目操盘经验。
                             </p>
                             <p className="text-sm sm:text-base text-brand-base leading-relaxed mb-4 sm:mb-6">
                                 作为国家数字战略的重要执行者，公司于 2025 年随华为中国区总部同步战略落户<span className="font-bold text-brand-dark">郑州</span>。我们致力于抢占中原地区数字经济产业升级的历史机遇，在山东、湖北、河南三省积累了丰富的政府、能源、制造等关键行业经验。

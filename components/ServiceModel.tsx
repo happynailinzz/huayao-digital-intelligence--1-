@@ -38,7 +38,7 @@ export const ServiceModel: React.FC = () => {
                     <h2 className="text-brand-red font-bold tracking-[0.4em] uppercase text-xs sm:text-sm mb-2">服务能力</h2>
                     <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-brand-dark mb-3 sm:mb-4 lg:mb-6">四位一体 · 端到端服务能力</h3>
                     <p className="text-xs sm:text-sm lg:text-base text-brand-base leading-relaxed">
-                        相比传统 IT 集成商，华曜数智具备完整的产业链整合能力，提供从顶层规划到资金支持的全链路服务，一站式解决客户痛点。
+                        相比传统 IT 集成商，寰曜数能具备完整的产业链整合能力，提供从顶层规划到资金支持的全链路服务，一站式解决客户痛点。
                     </p>
                 </div>
                 
