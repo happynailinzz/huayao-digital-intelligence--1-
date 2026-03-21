@@ -21,7 +21,7 @@ export const Solutions: React.FC = () => {
             {/* Additional Solutions Content could go here */}
             <section className="py-12 sm:py-20 bg-brand-dark">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-6 sm:mb-10">为什么选择寰曜数能？</h3>
+                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-6 sm:mb-10">为什么选择寰曜数智？</h3>
                     <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4 lg:gap-6">
                         <div className="bg-black/30 border border-white/10 p-4 sm:p-6 lg:p-8 rounded-2xl shadow-2xl">
                             <div className="text-xl sm:text-2xl lg:text-4xl font-extrabold text-white mb-1 sm:mb-2">

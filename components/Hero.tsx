@@ -26,18 +26,18 @@ export const Hero: React.FC = () => {
                     {/* Badge */}
                     <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-black/30 border border-white/20 text-white text-xs font-semibold mb-8 backdrop-blur-md shadow-lg">
                         <span className="w-2 h-2 rounded-full bg-brand-red animate-pulse"></span>
-                        2025 战略落户郑州 · 中原数字经济关键赋能者
+                        2025 战略落户郑州 · 政企数智化升级服务者
                     </div>
 
                     {/* Headline - Added text-shadow for better readability without overlay */}
                     <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold tracking-tight text-white mb-6 sm:mb-8 leading-tight drop-shadow-lg">
-                        政企数字化转型与<br />
-                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-orange-400 filter drop-shadow-md">智能升级的领先服务商</span>
+                        政企数智化转型与<br />
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-red to-orange-400 filter drop-shadow-md">智能升级综合服务商</span>
                     </h1>
 
                     {/* Description - Added text-shadow */}
                     <p className="mt-4 text-base sm:text-lg md:text-xl text-white mb-8 sm:mb-10 max-w-2xl leading-relaxed font-light drop-shadow-md">
-                        聚焦<span className="text-white font-bold">“东数西算”</span>与<span className="text-white font-bold">“信创国产化”</span>战略，凭借华为等头部企业基因，打造咨询、集成、销售、投融资“四位一体”服务能力，构建可信赖的数字底座。
+                        聚焦<span className="text-white font-bold">“东数西算”</span>与<span className="text-white font-bold">“信创国产化”</span>等关键方向，依托头部科技企业项目经验与体系化服务能力，为政企客户提供从顶层规划到建设落地的数智化升级支撑。
                     </p>
 
                     {/* Buttons */}
@@ -53,7 +53,7 @@ export const Hero: React.FC = () => {
                             onClick={() => scrollToSection('domains')}
                             className="w-full sm:w-auto px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 text-white font-bold text-lg border border-white/30 backdrop-blur-md transition-all flex items-center justify-center gap-2 group shadow-lg"
                         >
-                            核心业务
+                            业务布局
                             <ChevronRight className="w-5 h-5 text-slate-200 group-hover:text-white transition-colors" />
                         </button>
                     </div>
@@ -62,15 +62,15 @@ export const Hero: React.FC = () => {
                     <div className="mt-16 pt-8 border-t border-white/20 grid grid-cols-3 gap-8 md:gap-12 max-w-lg bg-black/10 rounded-xl p-4 backdrop-blur-sm">
                         <div>
                             <div className="text-3xl font-bold text-white drop-shadow-md">3<span className="text-brand-red text-xl">+</span></div>
-                            <div className="text-xs text-white/90 mt-1 font-medium">省份核心深耕</div>
+                             <div className="text-xs text-white/90 mt-1 font-medium">区域深耕覆盖</div>
                         </div>
                         <div>
                             <div className="text-3xl font-bold text-white drop-shadow-md">Top</div>
-                            <div className="text-xs text-white/90 mt-1 font-medium">头部科技基因</div>
+                             <div className="text-xs text-white/90 mt-1 font-medium">头部科技背景</div>
                         </div>
                         <div>
                             <div className="text-3xl font-bold text-white drop-shadow-md">100<span className="text-brand-red text-xl">%</span></div>
-                            <div className="text-xs text-white/90 mt-1 font-medium">信创国产适配</div>
+                             <div className="text-xs text-white/90 mt-1 font-medium">国产化适配能力</div>
                         </div>
                     </div>
                 </div>

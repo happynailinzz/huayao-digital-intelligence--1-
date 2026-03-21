@@ -8,23 +8,23 @@ export const About: React.FC = () => {
                 <div className="bg-white rounded-2xl p-4 sm:p-6 md:p-8 lg:p-12 shadow-lg border border-slate-100">
                     <div className="grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12">
                         <div>
-                            <h2 className="text-2xl font-bold text-brand-dark mb-4">源自巨头，立足中原</h2>
+                            <h2 className="text-2xl font-bold text-brand-dark mb-4">专业团队，立足中原</h2>
                             <p className="text-sm sm:text-base text-brand-base leading-relaxed mb-4 sm:mb-6">
-                                河南寰曜数能科技有限公司骨干团队主要来自<span className="font-bold text-brand-dark">华为、海康威视、H3C</span>等头部科技企业，具备丰富的省市级重点项目操盘经验。
+                                河南寰耀数字技术有限公司核心团队主要来自<span className="font-bold text-brand-dark">华为、海康威视、H3C</span>等头部科技企业，具备丰富的省市级重点项目实施与统筹经验。
                             </p>
                             <p className="text-sm sm:text-base text-brand-base leading-relaxed mb-4 sm:mb-6">
-                                作为国家数字战略的重要执行者，公司于 2025 年随华为中国区总部同步战略落户<span className="font-bold text-brand-dark">郑州</span>。我们致力于抢占中原地区数字经济产业升级的历史机遇，在山东、湖北、河南三省积累了丰富的政府、能源、制造等关键行业经验。
+                                公司于 2025 年战略落户<span className="font-bold text-brand-dark">郑州</span>，围绕区域数字经济发展与重点行业升级需求，持续服务政府、能源、制造等关键领域客户，在山东、湖北、河南等地积累了扎实的项目经验与行业认知。
                             </p>
                             <a href="#contact" className="text-brand-red font-semibold hover:underline inline-flex items-center group">
-                                了解更多企业愿景 <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                                了解企业能力与合作方向 <ArrowRight className="w-4 h-4 ml-1 group-hover:translate-x-1 transition-transform" />
                             </a>
                         </div>
                         <div className="grid grid-cols-2 gap-3 sm:gap-4">
                             {[
-                                { icon: Landmark, title: '政企服务', sub: '专注于G端与B端' },
-                                { icon: Users, title: '精英团队', sub: '华为/海康/H3C背景' },
-                                { icon: MapPin, title: '立足郑州', sub: '辐射中原经济区' },
-                                { icon: Award, title: '战略定位', sub: '更高的产业链整合' }
+                                { icon: Landmark, title: '政企服务', sub: '聚焦 G 端与 B 端场景' },
+                                { icon: Users, title: '专业团队', sub: '头部科技企业经验' },
+                                { icon: MapPin, title: '立足郑州', sub: '服务中原与周边区域' },
+                                { icon: Award, title: '综合能力', sub: '覆盖规划到落地全链路' }
                             ].map((item, idx) => {
                                 const Icon = item.icon;
                                 return (

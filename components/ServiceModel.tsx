@@ -6,25 +6,25 @@ const SERVICES = [
     { 
         id: '01', 
         title: '咨询规划', 
-        desc: '基于行业洞察，提供数字化转型的顶层设计与战略咨询。',
+        desc: '基于行业洞察与业务目标，提供数智化升级的顶层设计与规划咨询。',
         icon: FileText
     },
     { 
         id: '02', 
         title: '系统集成', 
-        desc: '整合软硬件资源，交付高可用、高性能的数字化系统。',
+        desc: '整合软硬件与平台能力，交付安全、稳定、可持续演进的系统方案。',
         icon: Settings
     },
     { 
         id: '03', 
         title: '产品销售', 
-        desc: '代理华为、超聚变等头部厂商的核心产品，渠道优势显著。',
+        desc: '联动头部厂商核心产品与生态资源，提升方案完整性与项目交付效率。',
         icon: ShoppingBag
     },
     { 
         id: '04', 
         title: '项目投融资', 
-        desc: '解决政企项目资金难题，提供灵活的投融资解决方案。',
+        desc: '围绕项目推进与建设需求，提供更具适配性的投融资协同支持。',
         icon: Coins
     }
 ];
@@ -36,9 +36,9 @@ export const ServiceModel: React.FC = () => {
                 {/* Header Section - Centered */}
                 <div className="text-center max-w-3xl mx-auto mb-8 sm:mb-12 lg:mb-16">
                     <h2 className="text-brand-red font-bold tracking-[0.4em] uppercase text-xs sm:text-sm mb-2">服务能力</h2>
-                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-brand-dark mb-3 sm:mb-4 lg:mb-6">四位一体 · 端到端服务能力</h3>
+                    <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold text-brand-dark mb-3 sm:mb-4 lg:mb-6">四位一体 · 全链路服务能力</h3>
                     <p className="text-xs sm:text-sm lg:text-base text-brand-base leading-relaxed">
-                        相比传统 IT 集成商，寰曜数能具备完整的产业链整合能力，提供从顶层规划到资金支持的全链路服务，一站式解决客户痛点。
+                        寰曜数智围绕客户真实业务场景，形成从规划咨询、系统建设到产品协同与投融资支持的完整服务链路，为重点项目提供更稳健的实施保障。
                     </p>
                 </div>
                 

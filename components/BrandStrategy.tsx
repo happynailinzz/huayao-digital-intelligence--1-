@@ -31,35 +31,35 @@ const BrandStrategy: React.FC = () => {
       color: 'gray',
       content: {
         title: '企业文化核心理念',
-        subtitle: '基于品牌深度分析提炼的企业文化体系',
+        subtitle: '围绕“寰曜数智”品牌定位形成的文化表达体系',
         sections: [
           {
             title: '企业使命',
-            content: '"筑基数字中原，智绘产业未来。"'
+            content: '"以数筑基，以智赋新，服务产业高质量发展。"'
           },
           {
             title: '使命解析',
-            content: '基于其"中原数字经济赋能者"的定位，使命在于通过"东数西算"和"信创"构建基础设施（筑基），并通过AI和数字化手段重塑（智绘）政企和能源行业。'
+            content: '基于“寰曜数智”的品牌定位，企业使命不仅在于建设数字基础设施，更在于以数据、算力、平台与智能化能力为支撑，帮助政企客户完成从基础建设到业务升级的系统推进，提升组织效率与产业运行质量。'
           },
           {
             title: '企业愿景',
-            content: '"成为最值得信赖的政企数字化转型与能源互联领航者。"'
+            content: '"成为最值得信赖的政企数智化升级伙伴。"'
           },
           {
             title: '愿景解析',
-            content: '呼应"寰曜"之名，目标是成为行业内的光源与领导者（领航者），并在G端和B端建立高度的信任关系（值得信赖）。'
+            content: '“寰曜”体现格局与引领，“数智”强调能力与价值。愿景聚焦于成为客户长期可信赖的升级伙伴，不止于项目交付，更持续提供判断力、解决方案能力与长期服务价值。'
           },
           {
             title: '核心价值观',
             content: [
-              '曜新（Innovation）：源于技术基因，坚持技术创新与国产化替代',
-              '致稳（Reliability）：承接政企与能源项目，强调安全、稳定、可靠',
-              '协同（Synergy）：强调"源网荷储"的互动及全方位协同服务',
-              '赋能（Empowerment）：提升客户数字化生存能力与降本增效'
+              '智见（Insight）：坚持行业理解与系统思考，识别关键问题，形成有依据的判断与方案。',
+              '致实（Execution）：坚持结果导向，将复杂任务转化为可交付、可落地、可持续的实施成果。',
+              '协同（Synergy）：打通咨询、集成、产品与投融资能力，形成多角色、多环节协同服务。',
+              '共进（Growth）：坚持长期主义，与客户共同提升组织效率、经营质量与发展韧性。'
             ]
           }
         ],
-        highlight: '数聚寰宇，能动未来。'
+        highlight: '以数为基，以智为擎。'
       }
     },
     {
@@ -68,27 +68,27 @@ const BrandStrategy: React.FC = () => {
       icon: <Sparkles className="w-6 h-6" />,
       color: 'red',
       content: {
-        title: '寰曜数能',
-        subtitle: 'HUANYAO SHUNENG - 品牌名称的深度解析',
+        title: '寰曜数智',
+        subtitle: 'HUANYAO SHUZHI - 品牌名称的内涵表达',
         sections: [
           {
             title: '寰 (Huán) - 格局与广度',
-            content: '意指"寰宇"、"天下"。象征着企业宽广的视野和宏大的格局。对应企业立足郑州、辐射中原、放眼全国的战略雄心，也代表其服务覆盖面广（涵盖政企、能源、教育等多个领域）。'
+            content: '意指“寰宇”“天下”。代表企业不局限于单点项目和短期交付，而是以更广阔的产业视角理解区域发展、行业升级与客户转型，体现立足中原、面向更广阔市场的战略格局。'
           },
           {
             title: '曜 (Yào) - 愿景与引领',
-            content: '意为"照耀"、"光明"、"日月星辰的光芒"。寓意企业如光芒般指引方向，利用先进技术"照亮"传统行业的盲区，引领数字化转型的未来。'
+            content: '意为“照耀”“光明”“光芒”。象征企业在复杂转型过程中提供方向感与确定性，以清晰的方法论、可靠的技术能力和持续的执行力，为客户明确数智化升级路径。'
           },
           {
             title: '数 (Shù) - 核心技术',
-            content: '直指"大数据"、"数字化"、"算力"。对应企业的核心业务：东数西算、数据中心、信创、人工智能及数据标注。这是企业的立身之本。'
+            content: '直指“数据”“数字化”“算力”。这是企业构建解决方案的基础底座，涵盖数据中心、信创、人工智能、平台建设与数字基础设施等核心能力，是推动客户转型的重要支撑。'
           },
           {
-            title: '能 (Néng) - 核心领域与价值',
-            content: '双重含义：一是物理层面的"能源"（源网荷储）；二是价值层面的"赋能"（Empowerment）。代表企业具备为政企客户提供核心能力、解决复杂问题的实力，同时深耕能源信息化领域。'
+            title: '智 (Zhì) - 智慧能力与升级价值',
+            content: '指向“智慧”“智能”与“智治”。它不仅代表 AI、算法与智能应用等技术能力，更代表企业帮助客户形成更高质量的决策能力、运营能力与治理能力，使数字化进一步转化为管理提升与业务增效。'
           }
         ],
-        highlight: '"寰曜数能"寓意为——"以寰宇般的宏大视野，用数字技术的光芒，赋能产业能源与经济的高质量发展。"'
+        highlight: '“寰曜数智”寓意为——以开阔视野理解产业趋势，以数字底座承载转型需求，以智能能力支撑组织升级。'
       }
     },
     {
@@ -98,31 +98,31 @@ const BrandStrategy: React.FC = () => {
       color: 'dark',
       content: {
         title: '四象限矩阵设计',
-        subtitle: 'Logo采用经典的"四象限矩阵"设计，稳重而具有科技感',
+        subtitle: '以秩序感、协同性与科技气质构建品牌视觉识别体系',
         sections: [
           {
             title: '图形形态分析',
             content: [
-              '矩阵结构：四个方块代表着企业的"四位一体"服务能力（咨询规划、系统集成、产品销售、项目投融资）',
-              '圆角方块：既像科技芯片的触点，象征核心算力；又像视窗，象征数字化转型的窗口',
-              '聚合之势：四个方块紧密排列，象征着"源网荷储"的协同互动，也代表多源数据的汇聚与整合'
+               '矩阵结构：四个方块对应企业“咨询规划、系统集成、产品服务、投融资协同”的综合服务能力，体现体系化交付能力。',
+               '圆角方块：兼具科技模块与数字窗口的双重意象，既象征算力与平台底座，也象征连接客户业务场景的接口。',
+               '聚合之势：模块彼此独立又协同成型，传达企业将多源资源、多类技术与多方角色整合为统一解决方案的能力。'
             ]
           },
           {
             title: '左上·浅灰',
-            content: '象征云计算、未来、理性。对应业务：智能化与数字化转型、顶层设计。代表冷静的咨询规划能力与前瞻性。'
+            content: '象征理性、秩序与前瞻。对应企业在战略咨询、顶层设计与架构规划上的判断能力，代表从源头明确方向的专业性。'
           },
           {
             title: '右上·红色',
-            content: '象征活力、激情、国家战略。对应业务：信创国产化。暗示企业响应国家"自主可控"号召的决心。'
+            content: '象征行动力、责任感与战略响应。对应企业在信创国产化、重点项目推进与关键场景突破中的执行能力。'
           },
           {
             title: '左下·深灰',
-            content: '象征坚固、硬件、基础设施、工业。对应业务：算力与数据中心。代表硬件集成、底层基建的厚重感。'
+            content: '象征稳健、承载与底座。对应数据中心、算力设施、硬件集成等基础能力，体现项目交付的可靠性与支撑能力。'
           },
           {
             title: '右下·黑色',
-            content: '象征深科技、宇宙深空、无限可能、权威。对应业务：人工智能与源网荷储。代表前沿技术探索。'
+            content: '象征深科技、复杂场景与升级潜能。对应人工智能、行业智能化与综合解决方案，代表企业面向未来持续拓展的技术能力。'
           }
         ]
       }
@@ -161,7 +161,7 @@ const BrandStrategy: React.FC = () => {
             品牌战略
           </h2>
           <p className="text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            深度解读寰曜数能的品牌内涵与企业精神，展现数字化转型的战略智慧
+            从品牌命名、文化理念到视觉表达，系统呈现寰曜数智的定位逻辑与价值主张
           </p>
         </div>
 
@@ -172,7 +172,7 @@ const BrandStrategy: React.FC = () => {
               <Target className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" />
             </div>
             <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2 sm:mb-3">战略定位</h3>
-            <p className="text-gray-600 leading-relaxed text-xs sm:text-sm lg:text-base">中原数字经济赋能者，政企数字化转型与能源互联领航者</p>
+            <p className="text-gray-600 leading-relaxed text-xs sm:text-sm lg:text-base">立足中原，服务政企，以数智能力支撑组织升级与产业发展</p>
           </div>
           
           <div className="bg-white rounded-xl p-4 sm:p-6 lg:p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
@@ -180,7 +180,7 @@ const BrandStrategy: React.FC = () => {
               <Eye className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" />
             </div>
             <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2 sm:mb-3">品牌愿景</h3>
-            <p className="text-gray-600 leading-relaxed text-xs sm:text-sm lg:text-base">成为最值得信赖的政企数字化转型与能源互联领航者</p>
+            <p className="text-gray-600 leading-relaxed text-xs sm:text-sm lg:text-base">成为最值得信赖的政企数智化升级伙伴</p>
           </div>
           
           <div className="bg-white rounded-xl p-4 sm:p-6 lg:p-8 shadow-lg border border-gray-200 hover:shadow-xl transition-shadow">
@@ -188,7 +188,7 @@ const BrandStrategy: React.FC = () => {
               <Zap className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6" />
             </div>
             <h3 className="text-base sm:text-lg lg:text-xl font-bold text-gray-900 mb-2 sm:mb-3">核心能力</h3>
-            <p className="text-gray-600 leading-relaxed text-xs sm:text-sm lg:text-base">数聚寰宇，能动未来 - 数字技术与能源赋能</p>
+            <p className="text-gray-600 leading-relaxed text-xs sm:text-sm lg:text-base">以数为基，以智为擎，打通规划、建设与运营的升级链路</p>
           </div>
         </div>
 
@@ -310,7 +310,7 @@ const BrandStrategy: React.FC = () => {
                   <Sparkles className="w-6 h-6 sm:w-8 sm:h-8 text-gray-400" />
                 </div>
                 <h4 className="text-lg sm:text-xl font-semibold text-gray-900 mb-2">选择品牌详情</h4>
-                <p className="text-gray-600 text-sm sm:text-base">点击上方标签查看寰曜数能的详细品牌战略内容</p>
+                <p className="text-gray-600 text-sm sm:text-base">点击上方标签查看寰曜数智的详细品牌战略内容</p>
               </div>
             )}
           </div>

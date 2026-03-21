@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* 寰曜数能品牌色彩系统 */
+/* 寰曜数智品牌色彩系统 */
 :root {
   --brand-primary: #1BA1E2;    /* 寰曜蓝 - 主品牌色 */
   --brand-secondary: #0E4F7A;  /* 深邃蓝 - 辅助色 */
