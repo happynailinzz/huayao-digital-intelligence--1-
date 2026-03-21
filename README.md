@@ -1,20 +1,85 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 寰曜数智官网
 
-# Run and deploy your AI Studio app
+这是一个基于 `Vite + React + TypeScript` 构建的企业官网项目，面向政企数智化转型、解决方案展示、案例展示与品牌内容传播场景。
 
-This contains everything you need to run your app locally.
+## 当前版本特性
 
-View your app in AI Studio: https://ai.studio/apps/drive/1e_cdzln-sqXahShDO4Mdw3H38NMHuOUi
+- 品牌名称、品牌战略与公司主体信息已统一为当前版本内容
+- 首页保留品牌展示、服务能力、行业领域、成功案例与联系入口
+- 导航中的 `行业动态` 已调整为 `CEO专栏`
+- `CEO专栏` 页面已替换为本地文章数据与本地图片资源
+- `CEO专栏` 支持按日期从近到远排序
+- `CEO专栏` 支持分页浏览，每页显示 8 条
+- 翻页后自动回到页面顶部
+- 仓库已清理为以网站源码与有效静态资源为主的结构
 
-## Run Locally
+## 技术栈
 
-**Prerequisites:**  Node.js
+- `React 18`
+- `TypeScript`
+- `Vite`
+- `react-router-dom`
+- `lucide-react`
 
+## 目录说明
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```text
+components/   页面组件
+pages/        路由页面
+data/         本地展示数据
+public/       静态资源
+```
+
+其中：
+
+- `data/mock.ts` 包含案例与 `CEO专栏` 页面使用的数据
+- `public/images/ceo-column/` 存放 `CEO专栏` 本地封面图
+
+## 本地开发
+
+安装依赖：
+
+```bash
+npm install
+```
+
+启动开发环境：
+
+```bash
+npm run dev
+```
+
+构建生产版本：
+
+```bash
+npm run build
+```
+
+本地预览构建结果：
+
+```bash
+npm run preview
+```
+
+## 部署方式
+
+当前项目采用以下发布方式：
+
+1. 本地修改并提交代码
+2. 推送到 GitHub 仓库
+3. 服务器拉取对应仓库最新代码
+4. 在服务器执行依赖安装与构建
+
+示例命令：
+
+```bash
+git pull origin main
+npm install
+npm run build
+```
+
+## 说明
+
+- 当前仓库不再保留旧的部署脚本、Nginx 配置和无效图片资源
+- `寰曜数智` 相关页面内容已按当前版本统一调整
+- `“寰曜数智”为河南寰耀数字技术有限公司持有商标`

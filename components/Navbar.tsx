@@ -8,7 +8,7 @@ const NAV_ITEMS: NavItem[] = [
     { label: '首页', href: '/' },
     { label: '服务与解决方案', href: '/solutions' },
     { label: '成功案例', href: '/cases' },
-    { label: '行业动态', href: '/news' },
+    { label: 'CEO专栏', href: '/news' },
     { label: '联系我们', href: '/contact' },
 ];
 
