@@ -67,16 +67,58 @@ npm run preview
 
 1. 本地修改并提交代码
 2. 推送到 GitHub 仓库
-3. 服务器拉取对应仓库最新代码
+3. 服务器仓库目录同步远端最新代码
 4. 在服务器执行依赖安装与构建
+5. 将 `dist/` 发布到站点目录
+6. 发布前自动备份当前站点，并仅保留最近 2 份备份
 
 示例命令：
 
 ```bash
-git pull origin main
+git fetch origin
+git reset --hard origin/main
+git clean -fd
 npm install
 npm run build
 ```
+
+### VPS 一键更新
+
+当前服务器部署结构：
+
+```text
+/www/wwwroot/huayao-repo   源码仓库目录
+/www/wwwroot/huayao-site   网站发布目录
+/www/wwwroot/huayao-backups 站点备份目录
+```
+
+仓库内提供正式部署脚本：
+
+```bash
+scripts/deploy-huayao.sh
+```
+
+首次执行前请确保脚本有执行权限：
+
+```bash
+cd /www/wwwroot/huayao-repo
+chmod +x scripts/deploy-huayao.sh
+```
+
+之后每次更新执行：
+
+```bash
+cd /www/wwwroot/huayao-repo
+bash scripts/deploy-huayao.sh
+```
+
+该脚本会自动完成以下操作：
+
+1. 强制同步远端 `main` 分支到服务器仓库
+2. 安装依赖并执行生产构建
+3. 备份当前站点目录到 `/www/wwwroot/huayao-backups/<时间戳>`
+4. 将最新 `dist/` 同步到 `/www/wwwroot/huayao-site`
+5. 自动清理旧备份，只保留最近 2 份
 
 ## 说明
 
