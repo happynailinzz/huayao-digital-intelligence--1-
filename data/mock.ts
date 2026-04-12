@@ -648,5 +648,122 @@ export const NEWS: NewsItem[] = [
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-56.jpg",
         originalUrl: "https://mp.weixin.qq.com/s/-NDNar-5SN1JCJNzMSQfmw"
+    },
+    {
+        id: "ceo-57",
+        title: "河南省发改委推动13家人工智能行业赋能中心落地：八大场景打开了哪些新机会？",
+        date: "2026-03-31",
+        summary: "河南首批13家人工智能行业赋能中心，覆盖政务、制造、教育、交通、医疗、文旅、种植、科学智能。名单背后是项目化落地与持续运营的新订单结构。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-57.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/BBkb9l4zfH7ghVLYdtYcyA"
+    },
+    {
+        id: "ceo-58",
+        title: "智谱上市后首份财报：MaaS ARR 突破17亿、增长60倍，中国大模型的估值逻辑该变了",
+        date: "2026-04-01",
+        summary: "智谱上市后首份财报显示，公司2025年收入达7.24亿元，同比增长131.9%。真正更值得重视的是平台与API业务高增、MaaS能力兑现、Agent与Coding开始推动Token商业化",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-58.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/DFnU06YMk97yBnv6JYlNLA"
+    },
+    {
+        id: "ceo-59",
+        title: "巴菲特最新 CNBC 深度采访，真正值得看的不是“卖早了苹果”",
+        date: "2026-04-03",
+        summary: "这两天，巴菲特接受 CNBC 深度采访，传播最广的一句话，是他承认自己“卖苹果卖早了”。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-59.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/EItZdjGTTiuI6lqABns9VQ"
+    },
+    {
+        id: "ceo-60",
+        title: "参观完这家机械装备企业，我才真正明白数字化转型到底在转什么！",
+        date: "2026-04-03",
+        summary: "参观完这家机械装备企业，我才真正明白数字化转型到底在转什么！附大型制造业集团IT信息化总体规划方案！推荐阅读！",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-60.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/SjXINCbGHh_KHi-FwNVrBA"
+    },
+    {
+        id: "ceo-61",
+        title: "河南省工信厅启动“数据治理服务进百企”：从“报需求”到“拿项目”，企业要抢的不是名额，而是交付能力",
+        date: "2026-04-04",
+        summary: "河南“数据治理服务进百企”进入实操期。真正的分水岭，不在报名动作，而在是否能把经营痛点拆成可实施、可验收、可复制的项目包。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-61.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/3khD42QX5Ij5tNJA97WUsA"
+    },
+    {
+        id: "ceo-62",
+        title: "河南移动加码“智算+算网+大模型”：郑州—许昌双中心联动后，真正的竞争进入“交付期”",
+        date: "2026-04-04",
+        summary: "河南算力建设正在从“参数竞争”进入“结果竞争”。底座能力只是门槛，行业胜负手是能否把算力、模型、数据和业务流程打成可复制的交付闭环。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-62.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/u7UsKDcL7sMKff1WGCIKDA"
+    },
+    {
+        id: "ceo-63",
+        title: "河南省发改委发布2026年重点建设项目名单：1418个项目、总投资约3.2万亿元，哪些赛道已进入项目窗口？",
+        date: "2026-04-06",
+        summary: "河南省发改委发布《2026年重点建设项目名单》，全省共遴选1418个项目、总投资约3.2万亿元，力争完成年度投资1万亿元以上。真正值得重视的，不只是规模，而是算力、网络、数据、平台和行业场景开始被放进同一张项目图里。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-63.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/RKjOPf3zysEV6u3RGpAgIQ"
+    },
+    {
+        id: "ceo-64",
+        title: "武汉这次无人驾驶出租车萝卜快跑“集体抛锚”，暴露的不是车的问题，而是系统的问题",
+        date: "2026-04-06",
+        summary: "武汉萝卜快跑多车异常，真正暴露的不是单车故障，而是自动驾驶进入真实城市运营后，系统稳定性、应急能力、平台协同与运营治理开始成为决定成败的核心门槛。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-64.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/yNjqMkE2hn1pEocrfgGlVQ"
+    },
+    {
+        id: "ceo-65",
+        title: "郑州算力节点落地后，2026年最值得做的6类信创项目",
+        date: "2026-04-07",
+        summary: "郑州核心算力节点释放的真正信号，不是单点算力建设，而是信创项目化落地加速：围绕基础设施升级、平台治理、系统迁移与数据治理形成可招采、可实施、可验收的项目机会。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-65.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/YTopXS__lzCpUm25_vUTpA"
+    },
+    {
+        id: "ceo-66",
+        title: "河南数据产业“施工图”落地：10个集聚区、500家骨干企业背后，真正的项目窗口在哪？",
+        date: "2026-04-07",
+        summary: "河南数据产业从政策愿景进入项目化落地期。10个集聚区、500家骨干企业目标背后，真正增量在交易、可信空间、数据产品化、算力与合规服务。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-66.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/D-kl-QdRHjBh4kJymgJL-w"
+    },
+    {
+        id: "ceo-67",
+        title: "河南“人工智能+教育”进入落地期：真正的机会，不在“AI课堂”，而在人才供给体系重构",
+        date: "2026-04-07",
+        summary: "河南教育“人工智能+教育”进入项目转化期，关键不在工具展示，而在教学、实训、就业与产业协同的可验收闭环。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-67.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/8cnDHN7kj1ynBxgQ041a3Q"
+    },
+    {
+        id: "ceo-68",
+        title: "从《2026年许昌市重点建设项目名单》看许昌的强市之路",
+        date: "2026-04-08",
+        summary: "许昌正在依托电力装备产业基础，把新产品孵化、中试验证、储能建设、源网荷储协同、公共服务平台和场景承接能力，一段一段接起来。源、源网荷储和公共服务平台正在被项目化、工程化、区域化。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-68.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/YrHOD0LrDYI7R7YQWGTT9w"
+    },
+    {
+        id: "ceo-69",
+        title: "河南省发改委发布《推动河南省新型储能高质量发展的若干措施》：2300万千瓦、800万千瓦、400亿元，这几类机会已经不只是概念",
+        date: "2026-04-08",
+        summary: "河南省发改委发布《推动河南省新型储能高质量发展的若干措施》，提出到2030年新型储能装机规模力争达到2300万千瓦，其中用户侧储能达到800万千瓦，带动项目直接投资400亿元。真正值得重视的，不只是储能规模本身，而是数据（算力）中心、",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-69.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/mcg8w4HoTDaSJbvsrXpWeg"
     }
 ];
