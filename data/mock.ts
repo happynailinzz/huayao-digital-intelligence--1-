@@ -202,7 +202,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-7",
         title: "河南交投的数字化招采节奏，给其他省管集团什么启示？",
-        date: "2026-02-26",
+        date: "2026-02-25",
         summary: "2025年的数字化转型，河南交投这波不太一样。不是“上几个系统”就算完事，而是把数字化当成一套工程在推进：先定范围、再建设、再试运行、再补治理。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-7.jpg",
@@ -229,7 +229,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-10",
         title: "2026年2月人工智能行业观察（国内篇）：从会做模型到会交付结果",
-        date: "2026-02-28",
+        date: "2026-02-27",
         summary: "2月国内AI从技术热度走向产业兑现，真正的胜负手开始转向可交付、可验收、可持续运营能力。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-10.jpg",
@@ -238,7 +238,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-11",
         title: "2026年2月人工智能行业观察（海外篇）：模型差距在缩小，控制权差距在拉大",
-        date: "2026-02-28",
+        date: "2026-02-27",
         summary: "2月海外AI的关键变化，不是模型参数，而是算力、入口、合规与现金流控制点的重排。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-11.jpg",
@@ -247,7 +247,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-12",
         title: "政企数字化转型，关键不是上系统，而是能验收",
-        date: "2026-03-01",
+        date: "2026-02-27",
         summary: "政企数字化转型真正的分水岭，不在系统数量，而在能否形成可验收、可复用、可持续的经营闭环。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-12.jpg",
@@ -265,7 +265,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-14",
         title: "对刘宁书记有关河南科技创新发展文章中五个关键信号的解读",
-        date: "2026-03-02",
+        date: "2026-03-01",
         summary: "从河南AI与数智化转型一线视角解读五个关键信号，核心在项目交付与经营结果。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-14.jpg",
@@ -274,7 +274,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-15",
         title: "政企数字化项目，为什么总卡在验收前一公里？",
-        date: "2026-03-02",
+        date: "2026-03-01",
         summary: "预算批了、系统上了、汇报也做了，项目却常常卡在验收前。真正的根因不是技术不够新，而是目标、数据、流程和责任没有闭环。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-15.jpg",
@@ -283,7 +283,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-16",
         title: "矿山智能化的中原机会：河南凭什么能接住这波产业升级？",
-        date: "2026-03-03",
+        date: "2026-03-02",
         summary: "矿山智能化不是买设备，是一套体系。平宝公司已验收：22→6人/班、减员156人、年省1800万。河南不是旁观者，中原有机会，问题是谁敢先站出来接单。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-16.jpg",
@@ -292,7 +292,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-17",
         title: "郑州“算力逆袭”真相：不是风口，是一条430亿产业链",
-        date: "2026-03-03",
+        date: "2026-03-02",
         summary: "郑州算力崛起，不是短期风口，而是政策、基础设施、龙头牵引与场景落地共同作用的产业链升级。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-17.jpg",
@@ -301,7 +301,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-18",
         title: "河南1010个源网荷储项目，数字化这道关怎么过？",
-        date: "2026-03-03",
+        date: "2026-03-04",
         summary: "河南分四批做了192个项目、290亿投资，现在一口气又押1010个。装机容量不是瓶颈，数字化能不能跟上才是关键。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-18.jpg",
@@ -310,7 +310,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-19",
         title: "信创进入\"2.0时代\"，河南企业该怎么接这波红利？",
-        date: "2026-03-04",
+        date: "2026-03-05",
         summary: "2027年截止，国央企信创替代100%目标倒计时。问题不是有没有国产产品，而是怎么在不崩业务的前提下完成迁移。这篇讲清楚\"换\"和\"用好\"的区别，以及河南企业可执行的切入路径。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-19.jpg",
@@ -319,7 +319,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-20",
         title: "河南“十五五”规划：数智强省建设的机遇与挑战",
-        date: "2026-03-05",
+        date: "2026-03-06",
         summary: "中原大地要“起飞”，数智化就是那股劲儿！2026年，河南省政府工作报告一出来，大家伙儿都看到了“十五五”时期河南要干的大事儿。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-20.jpg",
@@ -346,7 +346,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-23",
         title: "郑州市长两会发声背后，郑州数字化升级的逻辑正在变",
-        date: "2026-03-08",
+        date: "2026-03-07",
         summary: "庄建球两会发声中，“国家中心城市建设”与“十五五开局任务”被放在一起，释放出明确信号：郑州数字化升级正在从局部工具走向城市级抓手，从项目级推进走向系统级能力建设。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-23.jpg",
@@ -355,7 +355,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-24",
         title: "河南“人工智能+”行动：不是概念升级，而是产业重做",
-        date: "2026-03-08",
+        date: "2026-03-07",
         summary: "这两年，大家都在聊 AI。 但对河南来说，关键已经不是“要不要上 AI”，而是“怎么把 AI 变成可验收、可复制、可持续的项目”。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-24.jpg",
@@ -382,7 +382,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-27",
         title: "今年政府工作报告提到的“超大规模智算集群+全国一体化调度”，真正的风向变了",
-        date: "2026-03-10",
+        date: "2026-03-09",
         summary: "政府工作报告首次把超大规模智算集群、算电协同、全国一体化算力监测调度写入年度任务，意味着中国算力基础设施正在从分散建设走向全国统筹、区域协同、算电一体、调度运营的新阶段。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-27.jpg",
@@ -391,7 +391,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-28",
         title: "国家发改委连续发文，政务项目治理的逻辑正在变",
-        date: "2026-03-10",
+        date: "2026-03-09",
         summary: "国家发改委连续发文，一份推动招标投标领域人工智能应用，一份推动投资项目审批与工程建设审批系统数据共享，释放出明确信号：政府项目管理正在进入“全流程协同 + AI介入”的新阶段。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-28.jpg",
@@ -409,7 +409,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-30",
         title: "从3个信号看，河南电力数字化的项目窗口已经打开",
-        date: "2026-03-11",
+        date: "2026-03-10",
         summary: "河南能源监管办将电力现货市场建设、电力市场数字化监管、新能源并网消纳并列为年度重点，说明河南电力数字化正从方向判断走向项目窗口。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-30.jpg",
@@ -454,7 +454,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-35",
         title: "AI 众生相——openclaw 之下，地方政府、园区和更多厂商在忙什么",
-        date: "2026-03-14",
+        date: "2026-03-13",
         summary: "OpenClaw 这波热度，已经不只是技术圈里的事了。它正在往地方政府、产业园区、算力基础设施和更多服务型厂商那里外溢，背后真正值得看的，是一整条围绕 Agent 的项目、政策和产业配套链条。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-35.jpg",
@@ -463,7 +463,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-36",
         title: "全国两会最新信号到河南新型基础设施布局，机会在产业底座重构",
-        date: "2026-03-14",
+        date: "2026-03-13",
         summary: "全国两会持续强调超大规模智算集群、算电协同和重点行业AI商业化规模化应用，叠加河南明确推进5G、工业互联网、智算中心等新型基础设施建设，河南的算力网络机会正在从单点建设走向产业底座重构。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-36.jpg",
@@ -472,7 +472,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-37",
         title: "河南2026年信息通信业硬指标：算力+工业互联网+AI三线推进",
-        date: "2026-03-15",
+        date: "2026-03-16",
         summary: "河南通信管理局2026年工作会给出硬指标：5G用户8000万户、基站27万个、10G-PON端口200万个、重点领域5G应用项目7300个，并明确算力基础设施、工业互联网标识解析、人工智能+三条主线，政企数字化项目窗口已经打开。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-37.jpg",
@@ -526,7 +526,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-43",
         title: "河南省2026年智改数转怎么做？200个智能车间背后，真正值得盯的是这几类项目",
-        date: "2026-03-20",
+        date: "2026-03-19",
         summary: "河南省2026年智改数转：200个智能车间背后的产业链机会作者：余炜勋来源：本文基于河南省人民政府公开文件及",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-43.jpg",
@@ -535,7 +535,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-44",
         title: "河南省2026年智慧教育会怎么推进？从AI教学到师范生培养，机会正在往这几个环节集中",
-        date: "2026-03-21",
+        date: "2026-03-19",
         summary: "河南省2026年智慧教育：AI驱动教与学，师范生数字素养前置培养作者：余炜勋来源：本文基于河南省人民政府公开",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-44.jpg",
@@ -544,7 +544,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-45",
         title: "河南省2026年源网荷储机会有多大？91个项目加速落地后，真正的增量市场在这里",
-        date: "2026-03-22",
+        date: "2026-03-21",
         summary: "河南省2026年源网荷储：55%可再生能源背后的万亿级市场作者：余炜勋来源：本文基于河南省人民政府公开文件及",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-45.jpg",
@@ -553,7 +553,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-46",
         title: "许昌正式出手，中小企业数字化转型的项目窗口已经打开",
-        date: "2026-03-23",
+        date: "2026-03-22",
         summary: "许昌正式出手，中小企业数字化转型的项目窗口已经打开",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-46.jpg",
@@ -562,7 +562,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-47",
         title: "南阳“AI+制造”进入项目化阶段：智算中心、数谷园区与工厂改造三线并进，地市级产业升级窗口已打开",
-        date: "2026-03-24",
+        date: "2026-03-22",
         summary: "南阳把制造端改造、算力底座建设与园区载体推进放进同一条主线，释放出地市级AI+制造从口号走向项目化落地的强信号。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-47.jpg",
@@ -580,7 +580,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-49",
         title: "132项重点工作分工落地，平顶山项目机会不在“概念”，在责任清单",
-        date: "2026-03-26",
+        date: "2026-03-25",
         summary: "平顶山2026重点工作进入责任分解阶段。项目机会正从概念讨论转向清单推进，重点看源网荷储、国资改革、AI应用与数字化验收闭环。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-49.jpg",
@@ -589,7 +589,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-50",
         title: "AI 生剧专题一｜AI赋能微短剧、中剧、漫剧：先看行业变局，再看工具对比与路径选择",
-        date: "2026-03-27",
+        date: "2026-03-25",
         summary: "从行业底层变化出发，全方位对比主流厂商与工具在微短剧、中剧、漫剧中的适配度，给出面向产业化交付的选择逻辑。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-50.jpg",
@@ -598,7 +598,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-51",
         title: "AI 生剧专题二｜郑州为什么更适合做AI微短剧产业中枢：产业底盘、政策条件与落地便利性",
-        date: "2026-03-28",
+        date: "2026-03-25",
         summary: "本篇聚焦郑州现有产业环境、政策承接能力与AI工具落地便利性，解析其在微短剧与漫剧赛道形成产业中枢的现实路径。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-51.jpg",
@@ -607,7 +607,7 @@ export const NEWS: NewsItem[] = [
     {
         id: "ceo-52",
         title: "AI 生剧专题三｜从工具热到产业红利：AI赋能微短剧、中剧、漫剧的三大结合点与落地路径",
-        date: "2026-03-29",
+        date: "2026-03-25",
         summary: "专题收官篇：从内容能力、产业能力、组织能力三条结合线出发，给出AI赋能微短剧、中剧、漫剧的90天落地路线图。",
         category: 'CEO专栏',
         imageUrl: "/images/ceo-column/ceo-52.jpg",
@@ -759,11 +759,137 @@ export const NEWS: NewsItem[] = [
     },
     {
         id: "ceo-69",
+        title: "走进郑煤机深度调研才知道，矿山智能化真正值钱的，不是设备更大了，而是系统开始“长脑子”了",
+        date: "2026-04-19",
+        summary: "从郑煤机近年经营数据、原生数字化工厂、成套化智能综采工作面和行业标杆成果出发，观察矿山智能化为何正在从单机升级走向系统重构。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-69.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/-eal6iDFS0nM_z4mSQrtNQ"
+    },
+    {
+        id: "ceo-70",
+        title: "郑州335个重点项目正式下发：一起看看2604.5亿元，年度计划投资780.8亿元落在哪里",
+        date: "2026-04-19",
+        summary: "郑州2026年重点建设项目名单正式下发，335个重点项目、总投资2604.5亿元、年度计划投资780.8亿元。真正值得盯的，不是headline数据，而是数据中心、AI平台、源网荷储、电网数字化和产业园区项目开始成批出现。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-70.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/Cig2Ld9R7mbJBNu2pWjrHQ"
+    },
+    {
+        id: "ceo-71",
+        title: "AI时代，最先被重做的，可能真的是公司里的中层",
+        date: "2026-04-19",
+        summary: "陈航谈“未来的公司没有文档、没有中层”，刘润谈“公司中层可能即将消失”。真正值得重视的，不是中层会不会物理消失，而是AI正在重做公司里的信息处理、任务转译和流程协调机制。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-71.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/MF3-IoXvajCkRnHcdLhQqA"
+    },
+    {
+        id: "ceo-72",
+        title: "AIGC+OPC 从郑州走向全省：河南各地市谁会接住下一轮“人工智能+”红利？",
+        date: "2026-04-19",
+        summary: "AIGC+OPC在郑州高新区打开了一个口子之后，河南“人工智能+”正在从概念期进入清单期、场景期和分工期，郑州之外的各地市也开始寻找自己的接力位置。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-72.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/rrxuoBN9yHgZNIKaGtZ4kg"
+    },
+    {
+        id: "ceo-73",
+        title: "AIGC+OPC 正在重画郑州AI版图：高新区、航空港、经开区、金水区谁在吃哪波红利？",
+        date: "2026-04-17",
+        summary: "AIGC+OPC开始在郑州落地之后，这座城市的AI机会已不再平均分布，而是按高新区、航空港、经开区、金水区等不同区域功能重新分层和分工。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-73.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/uS2dCUhCST3Yvak-QwxXfw"
+    },
+    {
+        id: "ceo-74",
+        title: "AIGC+OPC 为什么率先在郑州高新区落地？河南首个专项政策释放了什么信号",
+        date: "2026-04-17",
+        summary: "郑州高新区率先打出AIGC+OPC这张牌，背后不是一条普通园区新闻，而是河南AI创业组织方式、算力供给逻辑和内容产业入口正在发生变化。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-74.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/K8yzoxQvmnf2Cp0R7WIuLA"
+    },
+    {
+        id: "ceo-75",
+        title: "炜勋观察开启专题连载+研报分享新尝试",
+        date: "2026-04-17",
+        summary: "从 2026 年 2 月 26 日发出第一篇文章，到现在一个多月，「炜勋观察」已经收获了超过 1000 位朋友的关注。\n\n很想认真说一句，谢谢大家。\n\n这段时间，我和我的 AI 伙伴一直围绕政企数字化、AI、储能信息化、智能制造、教育创新，以及数据标注、AIGC、OPC 等方向持续整理和输出内容。\n\n我们既关注河南，也放眼全国；\n既跟进动态，也尽量把政策、行业和案例讲清楚。\n\n接下来，「炜勋观察」会进入一个新的阶段。\n\n我们会围绕不同细分领域，陆续推出专题连载，也会同步整理一些配套的行业参考资料。\n\n希望以后带给大家的，不只是信息，\n而是更成体系的观察、更清晰的脉络，以及更有价值的判断。\n\n感谢大家一路同行，\n也欢迎继续关注、交流和给我们提建议。\n",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-75.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/MLwDgweUSNH_LYnmGE87GA"
+    },
+    {
+        id: "ceo-76",
+        title: "河南发改委明确2030年装机2300万千瓦：河南储能进入\"带时限\"阶段",
+        date: "2026-04-16",
+        summary: "储能政策从不缺目标，缺的是带时限的约束。河南省发改委近日发布新型储能高质量发展措施，明确 2030 年装机达",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-76.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/stWmNywMfowXmfGOcAOThA"
+    },
+    {
+        id: "ceo-77",
+        title: "从省标到落地：漯河如何啃下政务数据治理\"硬骨头\"",
+        date: "2026-04-16",
+        summary: "政务数据治理喊了多年，多数地方卡在“无标准可依”的困境。如今，漯河率先出手。3 月下旬，漯河市政务数据管理局",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-77.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/vvG4YlI4zsx9Y5HS1h2P4A"
+    },
+    {
+        id: "ceo-78",
+        title: "河南省文旅厅抛出六大场景：河南\"AI+文旅\"不是概念，是申报通道",
+        date: "2026-04-14",
+        summary: "AI 落地文旅，终于有了官方入口。河南省文旅厅近日发布“人工智能 + 文旅”试点申报通知，覆盖智能讲解、智能",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-78.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/wk2Doqyfu92SVciAQGLPmg"
+    },
+    {
+        id: "ceo-79",
+        title: "Anthropic调研500多位技术负责人后，我更确定：2026年，AI Agent 拼的不是模型，而是接流程的能力",
+        date: "2026-04-12",
+        summary: "Anthropic 联合 Material 对全美 500 多位技术领导者的调研显示，2026 年 AI Agent 的竞争重点，正在从模型能力转向流程接入、系统协同与组织改造能力。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-79.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/Vu8KfCDPVDItn9IyW_98tw"
+    },
+    {
+        id: "ceo-80",
+        title: "南阳发布《推进“人工智能+”行动方案》：AI进入项目化推进阶段",
+        date: "2026-04-12",
+        summary: "南阳市发布《推进“人工智能+”行动方案（2026—2028年）》，提出到2028年建成1个区域算力中心、30个以上高质量数据集、50个以上典型场景，释放出地方AI从概念推动转向项目化推进的明确信号。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-80.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/s3sch_rrsKo_nCLAyE4BIA"
+    },
+    {
+        id: "ceo-81",
+        title: "考察完平煤十一矿，我更看重的不是“智能化”，而是这三个更实的信号",
+        date: "2026-04-12",
+        summary: "参观平煤十一矿后，更值得关注的不是泛泛的“智能矿山”，而是智能化综管平台、数字孪生透明地质系统、矸石填充试点这三条更实的升级主线。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-81.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/TH1If-cvCwON_X_K9RktFA"
+    },
+    {
+        id: "ceo-82",
+        title: "教育部等五部门联合印发《“人工智能+教育”行动计划》：教育数字化，开始进入系统重构阶段",
+        date: "2026-04-12",
+        summary: "到2030年，要形成“人工智能与教育深度融合格局”，构建起纵向贯通、横向联通的人工智能全学段教育和全社会通识教育体系。",
+        category: 'CEO专栏',
+        imageUrl: "/images/ceo-column/ceo-82.jpg",
+        originalUrl: "https://mp.weixin.qq.com/s/mTR0QLV2Ky-NAKL5uzYuaA"
+    },
+    {
+        id: "ceo-83",
         title: "河南省发改委发布《推动河南省新型储能高质量发展的若干措施》：2300万千瓦、800万千瓦、400亿元，这几类机会已经不只是概念",
         date: "2026-04-08",
         summary: "河南省发改委发布《推动河南省新型储能高质量发展的若干措施》，提出到2030年新型储能装机规模力争达到2300万千瓦，其中用户侧储能达到800万千瓦，带动项目直接投资400亿元。真正值得重视的，不只是储能规模本身，而是数据（算力）中心、",
         category: 'CEO专栏',
-        imageUrl: "/images/ceo-column/ceo-69.jpg",
+        imageUrl: "/images/ceo-column/ceo-83.jpg",
         originalUrl: "https://mp.weixin.qq.com/s/mcg8w4HoTDaSJbvsrXpWeg"
     }
 ];
