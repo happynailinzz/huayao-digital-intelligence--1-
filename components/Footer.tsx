@@ -28,6 +28,7 @@ export const Footer: React.FC = () => {
                         <div className="flex gap-6">
                             <Link to="/solutions" className="hover:text-brand-dark transition-colors">解决方案</Link>
                             <Link to="/cases" className="hover:text-brand-dark transition-colors">成功案例</Link>
+                            <Link to="/report-library" className="hover:text-brand-dark transition-colors">资料导航</Link>
                         </div>
                         <span>© 2025 河南寰耀数字技术有限公司 版权所有</span>
                         <span className="text-xs text-brand-light">“寰曜数智”为河南寰耀数字技术有限公司持有商标</span>

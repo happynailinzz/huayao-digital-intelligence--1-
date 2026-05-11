@@ -1,17 +1,15 @@
 # 寰曜数智官网
 
-这是一个基于 `Vite + React + TypeScript` 构建的企业官网项目，面向政企数智化转型、解决方案展示、案例展示与品牌内容传播场景。
+这是一个基于 `Vite + React + TypeScript` 构建的企业官网项目，面向政企数智化转型、解决方案展示、案例展示、CEO 专栏与资料导航场景。
 
-## 当前版本特性
+## 当前内容
 
-- 品牌名称、品牌战略与公司主体信息已统一为当前版本内容
-- 首页保留品牌展示、服务能力、行业领域、成功案例与联系入口
-- 导航中的 `行业动态` 已调整为 `CEO专栏`
-- `CEO专栏` 页面已替换为本地文章数据与本地图片资源
-- `CEO专栏` 支持按日期从近到远排序
-- `CEO专栏` 支持分页浏览，每页显示 8 条
-- 翻页后自动回到页面顶部
-- 仓库已清理为以网站源码与有效静态资源为主的结构
+- 首页：品牌展示、服务能力、核心产业、成功案例与联系入口。
+- 服务与解决方案：行业领域与四位一体服务能力。
+- 成功案例：企业数字化、智慧能源、智慧教育、产教融合案例。
+- CEO专栏：从公众号文章数据同步，当前共 `109` 篇，本地封面图为 `ceo-1.jpg` 到 `ceo-109.jpg`。
+- 资料导航：集中展示报告、简报、政策文件和重点项目清单。
+- 资料资源：静态下载页、预览页和 PDF 统一放在 `/report-library/resources/` 下。
 
 ## 技术栈
 
@@ -24,16 +22,21 @@
 ## 目录说明
 
 ```text
-components/   页面组件
-pages/        路由页面
-data/         本地展示数据
-public/       静态资源
+components/                         通用页面组件
+pages/                              路由页面
+data/                               本地展示数据
+public/images/                      站点图片资源
+public/images/ceo-column/           CEO专栏封面图
+public/report-library/resources/    资料导航静态下载页、预览页和 PDF
+scripts/deploy-huayao.sh            VPS 部署脚本
 ```
 
-其中：
+关键文件：
 
-- `data/mock.ts` 包含案例与 `CEO专栏` 页面使用的数据
-- `public/images/ceo-column/` 存放 `CEO专栏` 本地封面图
+- `data/mock.ts`：成功案例与 `CEO专栏` 数据。
+- `pages/ReportLibrary.tsx`：资料导航页。
+- `public/report-library/resources/index.html`：资料资源目录页。
+- `scripts/deploy-huayao.sh`：VPS 从 GitHub 拉取、构建、备份和发布脚本。
 
 ## 本地开发
 
@@ -58,70 +61,167 @@ npm run build
 本地预览构建结果：
 
 ```bash
-npm run preview
+npm run preview -- --host 0.0.0.0 --port 4173
 ```
 
-## 部署方式
-
-当前项目采用以下发布方式：
-
-1. 本地修改并提交代码
-2. 推送到 GitHub 仓库
-3. 服务器仓库目录同步远端最新代码
-4. 在服务器执行依赖安装与构建
-5. 将 `dist/` 发布到站点目录
-6. 发布前自动备份当前站点，并仅保留最近 2 份备份
-
-示例命令：
-
-```bash
-git fetch origin
-git reset --hard origin/main
-git clean -fd
-npm install
-npm run build
-```
-
-### VPS 一键更新
-
-当前服务器部署结构：
+本地访问地址：
 
 ```text
-/www/wwwroot/huayao-repo   源码仓库目录
-/www/wwwroot/huayao-site   网站发布目录
-/www/wwwroot/huayao-backups 站点备份目录
+http://localhost:4173/
+http://localhost:4173/#/news
+http://localhost:4173/#/report-library
+http://localhost:4173/report-library/resources/
 ```
 
-仓库内提供正式部署脚本：
+## GitHub 到 VPS 部署方案
+
+当前采用“本地提交并推送到 GitHub，VPS 从 GitHub 拉取并构建发布”的方案。
+
+### 发布链路
+
+1. 本地完成修改。
+2. 本地执行 `npm run build` 验证。
+3. 提交代码并推送到 GitHub 的 `main` 分支。
+4. 登录 VPS。
+5. 在 VPS 源码仓库目录执行 `scripts/deploy-huayao.sh`。
+6. 脚本从 GitHub 同步最新 `main`，执行 `npm ci` 和 `npm run build`。
+7. 脚本备份当前站点，再把新的 `dist/` 同步到站点发布目录。
+
+### GitHub 仓库
+
+```text
+https://github.com/happynailinzz/huayao-digital-intelligence--1-.git
+```
+
+### VPS 推荐目录
+
+```text
+/www/wwwroot/huayao-repo      源码仓库目录，从 GitHub clone 或 pull
+/www/wwwroot/huayao-site      网站发布目录，Nginx 指向这里
+/www/wwwroot/huayao-backups   发布前自动备份目录
+```
+
+### VPS 首次初始化
+
+安装基础工具：
 
 ```bash
-scripts/deploy-huayao.sh
+sudo apt update
+sudo apt install -y git rsync curl
 ```
 
-首次执行前请确保脚本有执行权限：
+安装 Node.js。推荐使用 Node.js `20` 或更新 LTS 版本：
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install -y nodejs
+node -v
+npm -v
+```
+
+拉取仓库：
+
+```bash
+mkdir -p /www/wwwroot
+cd /www/wwwroot
+git clone https://github.com/happynailinzz/huayao-digital-intelligence--1-.git huayao-repo
+mkdir -p /www/wwwroot/huayao-site /www/wwwroot/huayao-backups
+```
+
+首次部署：
 
 ```bash
 cd /www/wwwroot/huayao-repo
 chmod +x scripts/deploy-huayao.sh
+bash scripts/deploy-huayao.sh
 ```
 
-之后每次更新执行：
+### 日常发布
+
+本地推送后，在 VPS 执行：
 
 ```bash
 cd /www/wwwroot/huayao-repo
 bash scripts/deploy-huayao.sh
 ```
 
-该脚本会自动完成以下操作：
+脚本会自动完成：
 
-1. 强制同步远端 `main` 分支到服务器仓库
-2. 安装依赖并执行生产构建
-3. 备份当前站点目录到 `/www/wwwroot/huayao-backups/<时间戳>`
-4. 将最新 `dist/` 同步到 `/www/wwwroot/huayao-site`
-5. 自动清理旧备份，只保留最近 2 份
+1. `git fetch origin`
+2. `git reset --hard origin/main`
+3. `git clean -fd`
+4. `npm ci`
+5. `npm run build`
+6. 校验关键构建产物、CEO 图片和资料导航 PDF
+7. 备份当前 `/www/wwwroot/huayao-site`
+8. 用新 `dist/` 覆盖发布目录
+9. 默认保留最近 `3` 份备份
 
-## 说明
+### 可配置环境变量
 
-- 当前仓库不再保留旧的部署脚本、Nginx 配置和无效图片资源
-- `寰曜数智` 相关页面内容已按当前版本统一调整
-- `“寰曜数智”为河南寰耀数字技术有限公司持有商标`
+如 VPS 目录或分支不同，可以用环境变量覆盖默认值：
+
+```bash
+REPO_DIR=/www/wwwroot/huayao-repo \
+SITE_DIR=/www/wwwroot/huayao-site \
+BACKUP_ROOT=/www/wwwroot/huayao-backups \
+BRANCH=main \
+KEEP_BACKUPS=3 \
+bash scripts/deploy-huayao.sh
+```
+
+### Nginx 配置参考
+
+本项目使用 `HashRouter`，主页面路由形如 `/#/news`，静态资料路径形如 `/report-library/resources/`。Nginx 指向 `dist` 发布目录即可。
+
+```nginx
+server {
+    listen 80;
+    server_name your-domain.com;
+
+    root /www/wwwroot/huayao-site;
+    index index.html;
+
+    location / {
+        try_files $uri $uri/ /index.html;
+    }
+
+    location ~* \.(js|css|png|jpg|jpeg|gif|svg|webp|pdf|ico)$ {
+        try_files $uri =404;
+        expires 30d;
+        add_header Cache-Control "public";
+    }
+}
+```
+
+部署后重点检查：
+
+```text
+https://your-domain.com/
+https://your-domain.com/#/news
+https://your-domain.com/#/report-library
+https://your-domain.com/report-library/resources/
+https://your-domain.com/report-library/resources/coal-industry-report-2025/downloads/china-coal-industry-report-2025.pdf
+```
+
+### 回滚方式
+
+备份目录按时间戳保存，例如：
+
+```text
+/www/wwwroot/huayao-backups/2026-05-11-153000
+```
+
+回滚到某个备份：
+
+```bash
+rsync -a --delete /www/wwwroot/huayao-backups/<备份目录>/ /www/wwwroot/huayao-site/
+```
+
+## 当前部署注意事项
+
+- `CEO专栏` 已使用本地图片，不依赖微信图片外链。
+- `public/images/ceo-column/` 目前应包含 `ceo-1.jpg` 到 `ceo-109.jpg`。
+- `资料导航` 的静态资源和 PDF 体积较大，必须随 GitHub 仓库一起推送到 VPS。
+- VPS 部署请使用 `npm ci`，确保依赖版本与 `package-lock.json` 一致。
+- 如果服务器下载 GitHub 速度慢，优先检查 VPS 到 GitHub 的网络连通性，而不是改动构建流程。
